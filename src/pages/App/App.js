@@ -1,13 +1,18 @@
 // import { Routes, Route } from 'react-router-dom'
 
 import './App.css';
+import PlaylistPage from '../Playlist/PlaylistPage'
 
 function App() {
   return (
-    <div className="App">
+    <main className="App">
+
       <h1>moodbox</h1>
       <p>create playlists based on your mood</p>
-    </div>
+
+      <PlaylistPage />
+      
+    </main>
   );
 }
 

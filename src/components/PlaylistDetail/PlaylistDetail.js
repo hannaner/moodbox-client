@@ -1,8 +1,12 @@
 // Component to view single playlist
+
+import SongDetail from '../SongDetail/SongDetail'
+
 export default function PlaylistDetail(){
     return (
         <>
-            <h1>playlist detail page</h1>
+            <h3>Playlist name</h3>
+            <SongDetail />
         </>
     )
 }
